@@ -1,5 +1,16 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
 
 /*
 	Dimension by HTML5 UP
@@ -121,7 +132,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: 'League Spartan';
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1571,7 +1582,7 @@
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.4rem;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
@@ -1594,7 +1605,7 @@
 		}
         
         .copyleft {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
           display:inline-block;
           transform: rotate(180deg);
         }
