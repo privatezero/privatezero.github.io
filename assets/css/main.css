@@ -41,7 +41,11 @@
 		display: block;
 	}
 
-	body {
+	.frontlist {
+	    font-family: 'League Spartan' !important;
+	}
+    
+    body {
 		line-height: 1;
 	}
 
