@@ -13,6 +13,7 @@
         animation-name: background;
         animation-duration: 10s;
         animation-iteration-count: infinite;
+        overflow:hidden;
     }
 
     @keyframes background {
